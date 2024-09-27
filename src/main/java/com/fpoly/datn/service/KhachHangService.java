@@ -6,6 +6,7 @@ import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -18,6 +19,7 @@ public class KhachHangService {
         list.add(new KhachHang(currentId++, "Nguyen Van A", true, "Chuong My, Ha Noi", "0974492604", "anv08@gmail.com"));
         list.add(new KhachHang(currentId++, "Nguyen Van B", false, "Thanh Xuan, Ha Noi", "0974492605", "anv09@gmail.com"));
         list.add(new KhachHang(currentId++, "Nguyen Van C", true, "Ha Dong, Ha Noi", "0974492606", "anv10@gmail.com"));
+
     }
     public List<KhachHang> getAll(){
         return list;

@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 @Getter
@@ -21,6 +22,7 @@ public class KhachHang {
     private String diaChi;
     private String soDienThoai;
     private String email;
+
 
 
 
